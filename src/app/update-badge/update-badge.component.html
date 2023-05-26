@@ -1,0 +1,25 @@
+<form>
+  <table>
+    <tr>
+      <td>Identifiant badge</td>
+      <td><input name="id" disabled type="text" [(ngModel)]="badge.id" #id="ngModel"></td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td><input name="email" type="text" required pattern="[a-z0-9._%+-]+@esprit*" [(ngModel)]="badge.email" #id="ngModel"></td>
+
+    </tr>
+    <tr>
+      <td>Direction</td>
+      <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td>Numéro tél</td>
+      <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><button type="submit">Save</button></td>
+    </tr>
+  </table>
+</form>

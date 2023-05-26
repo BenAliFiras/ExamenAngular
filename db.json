@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "badge": [
+    {
+      "id": 1,
+      "email": "badge@gmail.com",
+      "direction": "map",
+      "tel":"36251436"
+    },
+    {
+      "id": 2,
+      "email": "badge1@gmail.com",
+      "direction": "map1",
+      "tel":"78451278"
+    },
+    {
+      "id": 3,
+      "email": "badge2@gmail.com",
+      "direction": "map2",
+      "tel":"98653298"
+    },
+    {
+      "id": 4,
+      "email": "",
+      "direction": "map2",
+      "tel":"98653298"
+    }
+  ]
+}

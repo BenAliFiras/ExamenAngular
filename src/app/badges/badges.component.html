@@ -1,0 +1,9 @@
+<div *ngFor="let badge of listBadges">
+<ul >
+  <li>{{ badge.id }}
+      <a *ngIf="badge.email == '' " [routerLink]="['/badges',badge.id]">Affecter</a>
+
+  <button *ngIf="badge.email != '' " routerLink="">Details</button>
+  </li>
+</ul>
+</div>
